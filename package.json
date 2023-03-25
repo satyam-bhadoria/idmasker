@@ -1,0 +1,16 @@
+{
+  "name": "idmasker",
+  "version": "1.0.0",
+  "description": "Used to mask integer id to unique string and unmask the resultant string back to integer id",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satyam Bhadoria",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
